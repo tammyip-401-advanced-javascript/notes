@@ -1,6 +1,6 @@
-LAB 01
+LAB 02
 
-Project Name: Node Ecosystem
+Project Name: Classes, Inheritance, Functional Programming
 
 Author: Tammy Ip
 
@@ -20,8 +20,8 @@ How to initialize/run your server app (where applicable)
 e.g. npm start
 
 Tests
-npm test input.js
-npm test notes.js
+npm test input.test.js
+npm test notes.test.js
 
 UML
 https://docs.google.com/spreadsheets/d/1qZN2144XuQ1yPyKj46E6KZ5oNOZihmVg0A4rbbE27Ko/edit?usp=sharing
