@@ -22,6 +22,7 @@ e.g. npm start
 Tests
 npm test input.test.js
 npm test notes.test.js
+npm test validator.test.js
 
 UML
 https://docs.google.com/spreadsheets/d/1qZN2144XuQ1yPyKj46E6KZ5oNOZihmVg0A4rbbE27Ko/edit?usp=sharing
