@@ -1,7 +1,7 @@
 'use strict';
 
 const Input = require('../lib/input.js');
-const Input = require('../lib/notes.js');
+const Notes = require('../lib/notes.js');
 const minimist = require('minimist');
 
 describe('Notes Modules', () => {
