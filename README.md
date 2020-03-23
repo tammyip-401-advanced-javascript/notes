@@ -1,4 +1,4 @@
-LAB 02
+LAB 01
 
 Project Name: Classes, Inheritance, Functional Programming
 
