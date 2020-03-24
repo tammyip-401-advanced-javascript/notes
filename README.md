@@ -1,6 +1,6 @@
-LAB 02
+LAB 03
 
-Project Name: Classes, Inheritance, Functional Programming
+Project Name: Data Modeling & NoSQL Database
 
 Author: Tammy Ip
 
@@ -14,10 +14,11 @@ JSDoc Comment Required for all modules and functions in all .js files
 Setup
 .env requirements (where applicable) 
 PORT - Port Number - N/A for this lab
-MONGODB_URI - URL to the running mongo instance/db - N/A for this lab
+MONGODB_URI - URL to the running mongo instance/db - mongodb://localhost:27017/app
 
 How to initialize/run your server app (where applicable)
-e.g. npm start
+npm i mongodb
+npm i mongoose
 
 Tests
 npm test input.test.js
@@ -25,5 +26,5 @@ npm test notes.test.js
 npm test validator.test.js
 
 UML
-https://docs.google.com/spreadsheets/d/1qZN2144XuQ1yPyKj46E6KZ5oNOZihmVg0A4rbbE27Ko/edit?usp=sharing
+https://drive.google.com/open?id=1nI8026U-R_AFkc0SbzgQwlqwlxkufpMw
 
