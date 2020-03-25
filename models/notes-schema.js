@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const notesSchema = mongoose.Schema({
   note: { type: String, required: true },
-  category: { type: Array }
+  category: { type: String }
 });
 
 // build a data model from this schema
