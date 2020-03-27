@@ -24,7 +24,7 @@ MONGODB_URI - URL to the running mongo instance/db - N/A for this lab
 
 How to initialize/run your server app
 npm i
-Once the package is installed through npm or ran locally through the repo, enter commands using the following formats: notes -a 'blah blah blah' or notes -add 'blah blah blah'. You should see a console log saying adding note: blah blah blah
+Once the package is installed through npm or ran locally through the repo, enter commands using the following formats: notes -a 'blah blah blah' or notes -add 'blah blah blah'. You should see a console log saying adding note: blah blah blah.
 
 
 Tests
