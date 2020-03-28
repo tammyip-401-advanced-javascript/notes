@@ -43,7 +43,7 @@ class Model {
   async delete(_id) {
     try {
       if (! typeof _id === mongoose.ObjectId) throw 'err';
-      let deleteRecord = await this.model.find({ _id });
+      let deleteRecord = await this.model.findByIdAndDelete({ _id });
       if (deleteRecord.length) return deleteRecord[0];
       else throw 'err';
     } catch (e) {

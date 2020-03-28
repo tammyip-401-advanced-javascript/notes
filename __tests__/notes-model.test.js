@@ -28,15 +28,3 @@ describe('Database can create', () => {
     expect(response.payload).toBe('this is an apple');
   })
 });
-
-describe('Database can list notes from database', () => {
-  it('for best case', async () => {
-    let response = await NoteModel.find({
-      5e78464e6bea357ce946a171
-    });
-    console.log(response);
-
-    expect(response).not.toBe(false);
-    expect(response.payload).toBe('this is an apple');
-  })
-});
