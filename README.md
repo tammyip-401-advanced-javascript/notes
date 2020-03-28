@@ -5,7 +5,7 @@ Project Name: Advanced Mongo/Mongoose
 Author: Tammy Ip
 
 Links and Resources (see below)
-submission PR: 
+submission PR: https://github.com/tammyip-401-advanced-javascript/notes/pull/5
 
 Documentation
 JSDoc Comment Required for all modules and functions in all .js files
