@@ -28,3 +28,15 @@ describe('Database can create', () => {
     expect(response.payload).toBe('this is an apple');
   })
 });
+
+describe('Database can delete', () => {
+  it('an existing record', async () => {
+    let response = await NoteModel.readByField({
+      payload: 'this is an apple',
+    });
+    expect(response.length).toBe(1);
+    let appleId = response[0]._id;
+    let delRecord = await NoteModel.delete(appleId);
+    expect(delRecord).toBe(true);
+  })
+});
