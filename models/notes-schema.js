@@ -10,6 +10,4 @@ const notesSchema = mongoose.Schema({
 // build a data model from this schema
 // first parameter = collection name (must be in plural)
 
-const notesModel = mongoose.model('notes', notesSchema);
-
-module.exports = notesModel;
+module.exports = mongoose.model('notes', notesSchema);

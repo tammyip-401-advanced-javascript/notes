@@ -11,6 +11,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@code-fellows/supergoose": "^1.0.2",
         "minimist": "^1.2.5",
         "mongoose": "^5.9.6"
     }
