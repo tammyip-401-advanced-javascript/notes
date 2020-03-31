@@ -8,6 +8,7 @@ A standard Linked List is singly linked, meaning each Node in the list only main
     
 ## Links
 <!-- Link to pull request, passing tests, etc --> 
+https://github.com/tammyip-401-advanced-javascript/notes/pull/6
     
 ## Challenge
 <!-- Description of the challenge -->
