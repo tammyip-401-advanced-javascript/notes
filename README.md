@@ -1,39 +1,29 @@
-LAB 04
-
-Project Name: Advanced Mongo/Mongoose
+LAB 05 DSA: Linked List Implementation
 
 Author: Tammy Ip
 
-Links and Resources (see below)
-submission PR: https://github.com/tammyip-401-advanced-javascript/notes/pull/5
-
-Documentation
-JSDoc Comment Required for all modules and functions in all .js files
-https://jestjs.io/docs/en/configuration
-https://jsdoc.app/about-getting-started.html
-Minimist
-https://github.com/substack/minimist
-
-Setup
-To run locally, run npm i from the root directory.
-MONGODB_URI - URL to the running mongo instance/db - mongodb://localhost:27017/app
-
-How to use package
-npm i minimist
-npm i mongodb
-npm i mongoose
-Once the package is installed through npm or ran locally through the repo, enter commands using the following formats: 
-To add note to the database: -a or -add 'This is an apple'  
-To list notes from the database: -l or -list
-To delete a note in the database: -d insertIDhere
-
-Tests
-Testing command: npm test from the root directory.
-npm test input.test.js
-npm test notes.test.js
-npm test validator.test.js
-
-UML
-https://docs.google.com/spreadsheets/d/1GKui7hNGYuwxLTWTjpPQWVI3OkBME0HOB_tgB6olP4I/edit?usp=sharing
-
-
+# Linked List Implementation
+<!-- Short summary or background information -->
+A standard Linked List is singly linked, meaning each Node in the list only maintains a link to the next Node in the list, often called next. In this lab, I will apply a few methods on a singly linked ist.
+    
+## Links
+<!-- Link to pull request, passing tests, etc --> 
+    
+## Challenge
+<!-- Description of the challenge -->
+Create a Node class that has properties for the value stored in the Node, and a pointer to the next Node. Within your LinkedList class, include a head property. Upon instantiation, an empty Linked List should be created.
+    
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+insert(): Time: O(1), Space: O(1) 
+includes(): Time: O(N), Space: O(1) 
+toString(): Time: O(N), Space: O(n^2)
+    
+## API
+<!-- Description of each method publicly available to your Linked List -->
+insert(): takes any value as an argument and adds a new node with that value to the head of the list with an O(1) time performance 
+includes(): takes any value as an argument and returns a boolean result depending on whether that value exists as a Node’s value somewhere within the list 
+toString(): takes in no arguments and returns a string representing all the values in the Linked List, formatted as: "{ a } -> { b } -> { c } -> NULL"
+    
+## Testing
+<!-- Description of how to run your tests -->
