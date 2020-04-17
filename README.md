@@ -6,6 +6,7 @@ Author: Tammy Ip
 
 Links and Resources (see below)
 submission PR: https://github.com/tammyip-401-advanced-javascript/notes/pull/5
+npm link: https://www.npmjs.com/package/@unfie/tammy-notes
 
 Documentation
 JSDoc Comment Required for all modules and functions in all .js files

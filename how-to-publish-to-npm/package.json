@@ -1,0 +1,31 @@
+{
+  "name": "@tammyip/lab04",
+  "version": "1.0.2",
+  "description": "for lab04",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "lint": "eslint",
+    "watch": "jest --watchAll --coverage --verbose"
+  },
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.5",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tammyip-401-advanced-javascript/notes.git"
+  },
+  "author": "Tammy Ip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tammyip-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/tammyip-401-advanced-javascript/notes#readme"
+}
